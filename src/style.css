@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+button.right svg {
+  transform: rotate(180deg);
+}
